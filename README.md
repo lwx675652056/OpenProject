@@ -12,6 +12,7 @@ APP示例：https://github.com/scwang90/SmartRefreshLayout/raw/master/art/app-de
 效果图：![p1](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_practive_weibo.gif)
 ![p2](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_Classics.gif)
 ![p3](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_Material.gif)
+![p4](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_FlyRefresh.gif)
 
 1. android-pulltorefresh  
 一个强大的拉动刷新开源项目，支持各种控件下拉刷新，ListView、ViewPager、WebView、ExpandableListView、GridView、ScrollView、Horizontal  ScrollView、Fragment 上下左右拉动刷新，比下面 johannilsson 那个只支持 ListView 的强大的多。并且它实现的下拉刷新 ListView 在 item 不足一屏情况下也不会显示刷新提示，体验更好。  
