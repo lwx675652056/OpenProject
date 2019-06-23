@@ -5,6 +5,14 @@ Android 开源项目分类汇总
 主要介绍那些不错个性化的 View，包括 ListView、ActionBar、Menu、ViewPager、Gallery、GridView、ImageView、ProgressBar、TextView、ScrollView、TimeView、TipView、FlipView、ColorPickView、GraphView、UI Style 等等。  
 
 #### 一、ListView
+1. SmartRefreshLayout
+下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。
+项目地址：https://github.com/scwang90/SmartRefreshLayout
+APP示例：https://github.com/scwang90/SmartRefreshLayout/raw/master/art/app-debug.apk
+效果图：！[p1](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_practive_weibo.gif)
+![p2](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_Classics.gif)
+![p3](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_Material.gif)
+
 1. android-pulltorefresh  
 一个强大的拉动刷新开源项目，支持各种控件下拉刷新，ListView、ViewPager、WebView、ExpandableListView、GridView、ScrollView、Horizontal  ScrollView、Fragment 上下左右拉动刷新，比下面 johannilsson 那个只支持 ListView 的强大的多。并且它实现的下拉刷新 ListView 在 item 不足一屏情况下也不会显示刷新提示，体验更好。  
 项目地址：https://github.com/chrisbanes/Android-PullToRefresh  
