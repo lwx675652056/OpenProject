@@ -1097,34 +1097,34 @@ Content Provider 是Android提供的第三方应用数据的访问方案。
 
 ### 工具和技能
 
-* Git. [Link](https://github.com/git-tips/tips)
+1. [Git](https://github.com/git-tips/tips)
 
-* RxJava. [Link](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
+1. [RxJava](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
 
-* Dagger 2. [Link](https://medium.com/p/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+1. [Dagger 2](https://medium.com/p/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 
-* Android 开发实用工具。 [Link](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+1. [Android 开发实用工具](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
 
-* Firebase. [Link](https://firebase.google.com/)
+1. [Firebase](https://firebase.google.com/)
 
 
 ### Android 测试驱动开发
 
-* Espresso 是什么？ [Link](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+1. [Espresso 是什么？](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
-* Robolectric 是什么？ [Link](http://robolectric.org/)
+1. [Robolectric 是什么？](http://robolectric.org/)
 
-* UI-Automator 是什么？ [Link](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
+1. [UI-Automator 是什么？](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
 
-* 请解释一下单元测试。
+1. 请解释一下单元测试。
 
-* 请解释一下设备化测试。
+1. 请解释一下设备化测试。
 
-* 你是否做过单元测试或者自动测试？
+1. 你是否做过单元测试或者自动测试？
 
-* 为什么要使用 Mockito？ [Link](http://site.mockito.org/)
+1. [为什么要使用 Mockito？](http://site.mockito.org/)
 
-* 请描述一下 JUnit 测试。
+1. 请描述一下 JUnit 测试。
 
 
 ### 其他
@@ -1151,14 +1151,14 @@ Content Provider 是Android提供的第三方应用数据的访问方案。
 
 1. 可以识别卸载我们的应用程序的用户吗 ？
 
-1. 缩小 APK 的体积 。[Link](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
+1. [缩小 APK 的体积 。](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 
-1. Android 开发最佳实践 。[Link](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+1. [Android 开发最佳实践 。](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 
-1. Android 代码风格和指南 。[Link](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+1. [Android 代码风格和指南 。](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 
-1. 你尝试使用过 Kotlin 吗 ？[Link](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+1. [你尝试使用过 Kotlin 吗 ？](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
 
-1. 开发 Android 应用程序时应该连续测量哪些指标 ？[Link](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+1. [开发 Android 应用程序时应该连续测量哪些指标 ？](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
 
 ​    
