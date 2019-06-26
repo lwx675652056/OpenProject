@@ -6,9 +6,9 @@ Android 开源项目分类汇总
 
 #### 一、ListView
 1. SmartRefreshLayout
-下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。
-项目地址：https://github.com/scwang90/SmartRefreshLayout
-APP示例：https://github.com/scwang90/SmartRefreshLayout/raw/master/art/app-debug.apk
+下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。  
+项目地址：https://github.com/scwang90/SmartRefreshLayout  
+APP示例：https://github.com/scwang90/SmartRefreshLayout/raw/master/art/app-debug.apk  
 效果图：![p1](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_practive_weibo.gif)
 ![p2](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_Classics.gif)
 ![p3](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_Material.gif)
@@ -83,9 +83,8 @@ Demo 地址：https://github.com/JakeWharton/SwipeToDismissNOA/SwipeToDismissNOA
 效果图：![Renderings](https://github.com/saiwu-bigkoo/Android-QuickSideBar/blob/master/preview/quicksidebardemo.gif) 
 
 1. async-expandable-list  
-支持异步加载子列表的 ExpandableListView，包括CollectionView可以显示小标题的列表
-项目地址：https://github.com/Ericliu001/async-expandable-list
-
+支持异步加载子列表的 ExpandableListView，包括CollectionView可以显示小标题的列表  
+项目地址：https://github.com/Ericliu001/async-expandable-list  
 效果图：
 ![Demo](https://cloud.githubusercontent.com/assets/3691022/19348717/0d6c98ec-919b-11e6-97c3-a8ff782a059b.gif)  ![Demo](https://cloud.githubusercontent.com/assets/3691022/19406879/cb982648-92da-11e6-86bf-7c82e8505e6c.gif)  
 
