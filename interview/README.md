@@ -1129,36 +1129,36 @@ Content Provider 是Android提供的第三方应用数据的访问方案。
 
 ### 其他
 
-* 描述一下 REST APIs 如何工作 ？
+1. 描述一下 REST APIs 如何工作 ？
 
-* 描述一下 SQLite 。
+1. 描述一下 SQLite 。
 
-* 描述一下 数据库 。
+1. 描述一下 数据库 。
 
-* 项目管理工具 - trello ，basecamp ，kanban ，jira ，asana 。
+1. 项目管理工具 - trello ，basecamp ，kanban ，jira ，asana 。
 
-* 关于构建系统 - gradle , ant , buck 。
+1. 关于构建系统 - gradle , ant , buck 。
 
-* APK 逆向工程 。
+1. APK 逆向工程 。
 
-* 混淆器用于什么 ？
+1. 混淆器用于什么 ？
 
-* 什么是混淆？ 用于什么？ 如何压缩 ？
+1. 什么是混淆？ 用于什么？ 如何压缩 ？
 
-* 如何构建你的发布版本的 APP ？
+1. 如何构建你的发布版本的 APP ？
 
-* 如何面向特定用户群体更新应用程序版本 ？
+1. 如何面向特定用户群体更新应用程序版本 ？
 
-* 可以识别卸载我们的应用程序的用户吗 ？
+1. 可以识别卸载我们的应用程序的用户吗 ？
 
-* 缩小 APK 的体积 。[Link](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
+1. 缩小 APK 的体积 。[Link](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 
-* Android 开发最佳实践 。[Link](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+1. Android 开发最佳实践 。[Link](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 
-* Android 代码风格和指南 。[Link](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+1. Android 代码风格和指南 。[Link](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 
-* 你尝试使用过 Kotlin 吗 ？[Link](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+1. 你尝试使用过 Kotlin 吗 ？[Link](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
 
-* 开发 Android 应用程序时应该连续测量哪些指标 ？[Link](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+1. 开发 Android 应用程序时应该连续测量哪些指标 ？[Link](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
 
 ​    
