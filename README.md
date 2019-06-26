@@ -3,7 +3,7 @@
 [高级Android面试](interview)  
 
 
-##开源项目分类汇总
+## 开源项目分类汇总
 ## 第一部分 个性化控件(View)
 主要介绍那些不错个性化的 View，包括 ListView、ActionBar、Menu、ViewPager、Gallery、GridView、ImageView、ProgressBar、TextView、ScrollView、TimeView、TipView、FlipView、ColorPickView、GraphView、UI Style 等等。  
 
