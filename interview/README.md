@@ -459,7 +459,7 @@ Enumeration 是JDK 1.0添加的接口。使用到它的函数包括Vector、Hash
 
 ### 性能优化
 
-> 数据结构与算法问题的难度完全取决于你所申请的公司
+> 数据结构与算法问题的难度完全取决于你所面试的公司
 
 1. 数组
     - 数组由一组相同的数据类型组成。它存储在连续的内存空间内，使用索引可以找到元素的地址。数组包括一维数组和多维数组,一维数组是最简单的数据结构,也是最常用的。
@@ -589,7 +589,7 @@ ThreadLocal 必备 </br>
 [Android的消息机制之ThreadLocal的工作原理](https://blog.csdn.net/singwhatiwanna/article/details/48350919) **任玉刚的文章** </br>
 
 
-## Activity 相关</br>
+#### Activity 相关</br>
 
 启动模式以及使用场景?</br>
 onNewIntent()和onConfigurationChanged()</br>
@@ -602,7 +602,7 @@ Activity 到底是如何启动的</br>
 [onConfigurationChanged使用以及问题解决](https://www.jianshu.com/p/0127fb67516d) 全面得描述了各种情况</br>
 [Activity 启动流程解析](https://blog.csdn.net/zhaokaiqiang1992/article/details/49428287)</br>
 
-## Fragment </br></br>
+#### Fragment </br></br>
 Fragment 生命周期和 Activity 对比</br>
 Fragment 之间如何进行通信</br>
 Fragment的startActivityForResult</br>
@@ -612,7 +612,7 @@ Fragment重叠问题</br>
 [Fragment 重叠， 如何通信](https://blog.csdn.net/qq_24442769/article/details/77679147)</br>
 [Fragment生命周期](https://www.jianshu.com/p/1b3f829810a1)</br>
 
-## Service 相关</br>
+#### Service 相关</br>
 
 **进程保活</br>
 Service的运行线程（生命周期方法全部在主线程）</br>
@@ -623,7 +623,7 @@ ServiceConnection里面的回调方法运行在哪个线程？</br>**
 [进程保活一般套路](https://juejin.im/entry/58acf391ac502e007e9a0a11) 把进程保活手段都讲了一遍</br>
 [关于进程保活你需要知道的一切](https://www.jianshu.com/p/63aafe3c12af) 10万+ 关于进程保活得文章</br>
 
-## Android布局优化之ViewStub、include、merge</br>
+#### Android布局优化之ViewStub、include、merge</br>
 
 什么情况下使用 ViewStub、include、merge？</br>
 他们的原理是什么？</br>
@@ -632,7 +632,7 @@ ServiceConnection里面的回调方法运行在哪个线程？</br>**
 [Android布局优化之ViewStub、include、merge使用与源码分析](https://blog.csdn.net/bboyfeiyu/article/details/45869393)</br>
 
 
-## BroadcastReceiver 相关</br>
+#### BroadcastReceiver 相关</br>
 注册方式，优先级</br>
 广播类型，区别</br>
 广播的使用场景，原理</br>
@@ -641,7 +641,7 @@ ServiceConnection里面的回调方法运行在哪个线程？</br>**
 [常见使用以及流程解析](https://blog.csdn.net/carson_ho/article/details/52973504)</br>
 [广播源码解析](https://www.jianshu.com/p/02085150339c)</br>
 
-## AsyncTask相关</br>
+#### AsyncTask相关</br>
 AsyncTask是串行还是并行执行？</br>
 AsyncTask随着安卓版本的变迁</br>
 
@@ -649,7 +649,7 @@ AsyncTask随着安卓版本的变迁</br>
 [串行还是并行](https://blog.csdn.net/singwhatiwanna/article/details/17596225) </br>
 
 
-## Android  事件分发机制</br>
+#### Android  事件分发机制</br>
 onTouch和onTouchEvent区别，调用顺序</br>
 dispatchTouchEvent， onTouchEvent， onInterceptTouchEvent 方法顺序以及使用场景</br>
 滑动冲突，如何解决</br>
@@ -658,7 +658,7 @@ dispatchTouchEvent， onTouchEvent， onInterceptTouchEvent 方法顺序以及�
 [事件分发解析](https://blog.csdn.net/lmj623565791/article/details/39102591) 鸿洋出品</br>
 [dispatchTouchEvent， onTouchEvent， onInterceptTouchEvent方法的使用场景解析](https://www.jianshu.com/p/d3758eef1f72)</br>
 
-## Android View 绘制流程</br>
+#### Android View 绘制流程</br>
 简述 View 绘制流程</br>
 onMeasure， onlayout， ondraw方法中需要注意的点</br>
 如何进行自定义 View</br>
@@ -671,12 +671,12 @@ view 重绘机制</br>
 **别问我为什么推荐这么多郭神的文章，因为我是看着郭神的文章长大的！**</br>
 
 
-## Android Window、Activity、DecorView以及ViewRoot</br>
+#### Android Window、Activity、DecorView以及ViewRoot</br>
 [Window、Activity、DecorView以及ViewRoot之间的关系](https://www.jianshu.com/p/8766babc40e0)</br>
 
 
 
-## Android 的核心 Binder 多进程 AIDL</br>
+#### Android 的核心 Binder 多进程 AIDL</br>
 常见的 IPC 机制以及使用场景</br>
 为什么安卓要用 binder 进行跨进程传输</br>
 多进程带来的问题</br>
@@ -687,7 +687,7 @@ view 重绘机制</br>
 [多进程通信方式以及带来的问题](http://wuxiaolong.me/2018/02/15/AndroidIPC/)</br>
 [多进程通信方式对比](https://blog.csdn.net/u011240877/article/details/72863432)</br>
 </br>
-## Android 高级必备 ：AMS,WMS,PMS</br>
+#### Android 高级必备 ：AMS,WMS,PMS</br>
 这部分真的复杂！</br>
 AMS,WMS,PMS 创建过程</br>
 
@@ -705,7 +705,7 @@ AMS,WMS,PMS 创建过程</br>
  [如何避免以及分析方法](https://www.jianshu.com/p/388166988cef)</br>
  [Android 性能优化之 ANR 详解](https://juejin.im/post/58e5bd6dda2f60005fea525c)</br>
 
-## Android 内存相关</br>
+#### Android 内存相关</br>
 
 **注意：内存泄漏和内存溢出是 2 个概念**</br>
 
@@ -718,20 +718,20 @@ AMS,WMS,PMS 创建过程</br>
 [防止内存泄漏的方法](https://www.jianshu.com/p/c5ac51d804fa)</br>
 
 
-## Android 屏幕适配</br>
+#### Android 屏幕适配</br>
 屏幕适配相关名词解析</br>
 现在流行的屏幕适配方式</br>
 
 [屏幕适配名词以及概念解析](https://blog.csdn.net/zhaokaiqiang1992/article/details/45419023)</br>
 [今日头条技术适配方案](https://zhuanlan.zhihu.com/p/37199709)</br>
 
-## Android 缓存机制</br>
+#### Android 缓存机制</br>
 LruCache使用极其原理</br>
 
 [Android缓存机制](https://www.jianshu.com/p/2608f036f362)</br>
 [LruCache使用极其原理述](https://www.jianshu.com/p/b49a111147ee)</br>
 
-## Android 性能优化</br>
+#### Android 性能优化</br>
 如何进行 内存 cpu 耗电 的定位以及优化</br>
 性能优化经常使用的方法</br>
 如何避免 UI 卡顿</br>
@@ -742,13 +742,13 @@ LruCache使用极其原理</br>
 [性能优化最佳实践](https://juejin.im/post/5b50b017f265da0f7b2f649c)</br>
 [知乎高赞文章](https://zhuanlan.zhihu.com/p/30691789)</br>
 
-## Android MVC、MVP、MVVM</br>
+#### Android MVC、MVP、MVVM</br>
 好几种我该选择哪个？优劣点</br>
 
 任玉刚的文章：
 [设计模式选择](https://juejin.im/post/5b3a3a44f265da630e27a7e6)</br>
 
-## Android Gradle 知识</br>
+#### Android Gradle 知识</br>
 这俩篇官方文章基础的够用了</br>
 [必须贴一下官方文档：配置构建](https://developer.android.com/studio/build?hl=zh-cn)</br>
 [Gradle 提示与诀窍](https://developer.android.com/studio/build/gradle-tips?hl=zh-cn)</br>
@@ -762,19 +762,19 @@ Gradle插件 了解就好 </br>
 [Gradle系列三](https://juejin.im/post/5b02113a5188254289190671)</br>
 
 
-## RxJava</br>
+#### RxJava</br>
 使用过程，特点，原理解析</br>
 [RxJava 名词以及如何使用](https://blog.piasy.com/2016/09/15/Understand-RxJava/index.html)</br>
 [Rxjava 观察者模式原理解析](https://juejin.im/post/58dcc66444d904006dfd857a)</br>
 [Rxjava订阅流程，线程切换，源码分析 系列](https://juejin.im/post/5a209c876fb9a0452577e830)</br>
 
-## OKHTTP 和 Retrofit</br>
+#### OKHTTP 和 Retrofit</br>
 [OKHTTP完整解析](https://blog.csdn.net/lmj623565791/article/details/47911083)  --鸿洋出品</br>
 [Retrofit使用流程，机制详解](https://blog.csdn.net/carson_ho/article/details/73732076)</br>
 [从 HTTP 到 Retrofit](https://www.jianshu.com/p/45cb536be2f4)</br>
 [Retrofit是如何工作的](https://www.jianshu.com/p/cb3a7413b448)</br>
 
-## 最流行图片加载库： Glide</br>
+#### 最流行图片加载库： Glide</br>
 
 **郭神系列 Glide 分析**</br>
 [Android图片加载框架最全解析（一），Glide的基本用法](https://blog.csdn.net/guolin_blog/article/details/53759439)</br>
@@ -787,7 +787,7 @@ Gradle插件 了解就好 </br>
 [Android图片加载框架最全解析（八），带你全面了解Glide 4的用法](http://blog.csdn.net/guolin_blog/article/details/78582548)</br>
 
 
-## Android 组件化与插件化</br>
+#### Android 组件化与插件化</br>
 业务大了代码多了会用到。</br>
 
 为什么要用组件化？</br>
@@ -807,12 +807,24 @@ Gradle插件 了解就好 </br>
 [Android 插件化和热修复知识梳理</br>
 ](https://www.jianshu.com/p/704cac3eb13d)</br>
 
-## Flutter 与 RN
+#### Flutter 与 RN
 [Flutter原理](https://zhuanlan.zhihu.com/p/36861174)</br>
 [Flutter KO React Native? 让时间去决定吧...](https://juejin.im/post/5b0607c76fb9a07a9b365556)</br>
 [如何评价 React Native？](https://www.zhihu.com/question/27852694)
 
 
+
+#### 面试常问的点</br>
+除了上面整理的安卓高级技术问题，还有一些面试官喜欢问的点，大家针对准备回答：</br>
+
+ - 你在项目中遇到最难得点是什么？如何解决的？</br>
+ - 平时遇到问题了是如何解决的？比较好的回答： 官方文档一定要看，通过源码解决问题，然后才是搜索引擎以及和同事讨论</br>
+ - 你最近做的 APP 是如何架构的？为什么要这样架构？</br>
+ - 平时怎么进行技术进阶，如何学习？</br>
+ - 你觉得自己处于什么技术水平？</br>
+ - 你的技术优势是什么？</br>
+ - 用过什么开源技术？它的原理是什么？看过它的源码么？ 这里建议看上面 Glide 相关</br>
+ - 如何设计一个框架？能不能回答上直接判断你的技术等级</br>
 
 1. 阐述一下 Activity 的生命周期。
 
@@ -823,22 +835,22 @@ Gradle插件 了解就好 </br>
 
 在实现 Activity 类的时候，通过覆盖（ override ）这些方法即可在你需要处理的时候来调用。 
 
-•onCreate ：当活动第一次启动的时候，触发该方法，可以在此时完成活动的初始化工作。 
+- onCreate ：当活动第一次启动的时候，触发该方法，可以在此时完成活动的初始化工作。 
 onCreate 方法有一个参数，该参数可以为空（ null ），也可以是之前调用 onSaveInstanceState（）方法保存的状态信息。
 
-•onStart ：该方法的触发表示所属活动将被展现给用户。 
+- onStart ：该方法的触发表示所属活动将被展现给用户。 
 
-•onResume ：当一个活动和用户发生交互的时候，触发该方法。 
+- onResume ：当一个活动和用户发生交互的时候，触发该方法。 
 
-•onPause ：当一个正在前台运行的活动因为其他的活动需要前台运行而转入后台运行的时候，触发该方法。这时候需要将活动的状态持久化，比如正在编辑的数据库记录等。 
+- onPause ：当一个正在前台运行的活动因为其他的活动需要前台运行而转入后台运行的时候，触发该方法。这时候需要将活动的状态持久化，比如正在编辑的数据库记录等。 
 
-•onStop ：当一个活动不再需要展示给用户的时候，触发该方法。如果内存紧张，系统会直接结束这个活动，而不会触发 onStop 方法。 所以保存状态信息是应该在onPause时做，而不是onStop时做。活动如果没有在前台运行，都将被停止或者Linux管理进程为了给新的活动预留足够的存储空间而随时结束这些活动。因此对于开发者来说，在设计应用程序的时候，必须时刻牢记这一原则。在一些情况下，onPause方法或许是活动触发的最后的方法，因此开发者需要在这个时候保存需要保存的信息。 
+- onStop ：当一个活动不再需要展示给用户的时候，触发该方法。如果内存紧张，系统会直接结束这个活动，而不会触发 onStop 方法。 所以保存状态信息是应该在onPause时做，而不是onStop时做。活动如果没有在前台运行，都将被停止或者Linux管理进程为了给新的活动预留足够的存储空间而随时结束这些活动。因此对于开发者来说，在设计应用程序的时候，必须时刻牢记这一原则。在一些情况下，onPause方法或许是活动触发的最后的方法，因此开发者需要在这个时候保存需要保存的信息。 
 
-•onRestart ：当处于停止状态的活动需要再次展现给用户的时候，触发该方法。 
+- onRestart ：当处于停止状态的活动需要再次展现给用户的时候，触发该方法。 
 
-•onDestroy ：当活动销毁的时候，触发该方法。和 onStop 方法一样，如果内存紧张，系统会直接结束这个活动而不会触发该方法。 
+- onDestroy ：当活动销毁的时候，触发该方法。和 onStop 方法一样，如果内存紧张，系统会直接结束这个活动而不会触发该方法。 
 
-•onSaveInstanceState ：系统调用该方法，允许活动保存之前的状态，比如说在一串字符串中的光标所处的位置等。 
+- onSaveInstanceState ：系统调用该方法，允许活动保存之前的状态，比如说在一串字符串中的光标所处的位置等。 
 通常情况下，开发者不需要重写覆盖该方法，在默认的实现中，已经提供了自动保存活动所涉及到的用户界面组件的所有状态信息。
   
 
@@ -855,12 +867,11 @@ Service 是android 系统中的一种组件，它跟Activity 的级别差不多�
 
 开启Service有两种方式:
 （1） Context.startService（）：Service会经历onCreate -> onStart（如果Service还没有运行，则android先调用onCreate（）然后调用onStart（）；
-　　　　如果Service已经运行，则只调用onStart（），所以一个Service的onStart方法可能会重复调用多次 ）；
-　　　　StopService的时候直接onDestroy，如果是调用者自己直接退出而没有调用StopService的话，Service会一直在后台运行。该Service的调用者再启动起来后可以通过stopService关闭Service。
+　　　如果Service已经运行，则只调用onStart（），所以一个Service的onStart方法可能会重复调用多次 ）；
+　　　StopService的时候直接onDestroy，如果是调用者自己直接退出而没有调用StopService的话，Service会一直在后台运行。该Service的调用者再启动起来后可以通过stopService关闭Service。
 　　*注意:多次调用Context.startservice（）不会嵌套（即使会有相应的onStart（）方法被调用），所以无论同一个服务被启动了多少次，一旦调用Context.stopService（）或者StopSelf（），他都会被停止。
 　　补充说明：传递给StartService（0的Intent对象会传递给onStart（）方法。调用顺序为：onCreate --> onStart（可多次调用) --> onDestroy。
 （2） Context.bindService（）：Service会经历onCreate（） -->onBind（），onBind将返回给客户端一个IBind接口实例，IBind允许客户端回调服务的方法，比如得到Service运行的状态或其他操作。这个时候把调用者（Context，例如Activity）会和Service绑定在一起，Context退出了，Srevice就会调用onUnbind --> onDestroyed相应退出，所谓绑定在一起就共存亡了。
-
 
 - 广播接收器
 
@@ -871,228 +882,214 @@ Service 是android 系统中的一种组件，它跟Activity 的级别差不多�
 Content Provider 是Android提供的第三方应用数据的访问方案。
 　　在Android中，对数据的保护是很严密的，除了放在SD卡中的数据，一个应用所持有的数据库、文件等内容，都是不允许其他直接访问的。Andorid当然不会真的把每个应用都做成一座孤岛，它为所有应用都准备了一扇窗，这就是Content Provider。应用想对外提供的数据，可以通过派生Content Provider类， 封装成一枚Content Provider，每个Content Provider都用一个uri作为独立的标识，形如：content://com.xxxxx。所有东西看着像REST的样子，但实际上，它比REST 更为灵活。和REST类似，uri也可以有两种类型，一种是带id的，另一种是列表的，但实现者不需要按照这个模式来做，给id的uri也可以返回列表类型的数据，只要调用者明白，就无妨，不用苛求所谓的REST。
 
+1. [Service 与 IntentService 的区别。](https://stackoverflow.com/a/15772151/5153275)
 
-## 面试常问的点</br>
-除了上面整理的安卓高级技术问题，还有一些面试官喜欢问的点，大家针对准备回答：</br>
+1. Android 应用的结构是什么？
 
- - 你在项目中遇到最难得点是什么？如何解决的？</br>
- - 平时遇到问题了是如何解决的？比较好的回答： 官方文档一定要看，通过源码解决问题，然后才是搜索引擎以及和同事讨论</br>
- - 你最近做的 APP 是如何架构的？为什么要这样架构？</br>
- - 平时怎么进行技术进阶，如何学习？</br>
- - 你觉得自己处于什么技术水平？</br>
- - 你的技术优势是什么？</br>
- - 用过什么开源技术？它的原理是什么？看过它的源码么？ 这里建议看上面 Glide 相关</br>
- - 如何设计一个框架？能不能回答上直接判断你的技术等级</br>
+1. Android 应用中如何保存数据。
 
+1. 如何在 Android 应用中执行耗时操作。
 
-* Service 与 IntentService 的区别。[Link](https://stackoverflow.com/a/15772151/5153275)
+1. 两个 Fragment 之间如何通信。
 
-* Android 应用的结构是什么？
+1. 阐述一下 Android 的通知系统。
 
-* Android 应用中如何保存数据。
+1. 两个不同的 app 之间如何交互。
 
-* 如何在 Android 应用中执行耗时操作。
+1. 什么是 Fragment？
 
-* 两个 Fragment 之间如何通信。
+1. [为什么建议只使用默认的构造方法来创建 Fragment？](https://stackoverflow.com/a/16042750/2809326)
 
-* 阐述一下 Android 的通知系统。
+1. 为什么 Bundle 被用来传递数据，为什么不能使用简单的 Map 数据结构？
 
-* 两个不同的 app 之间如何交互。
+1. [阐述一下 Fragment 的生命周期。](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
 
-* 什么是 Fragment？
+1. 如何理解 Android 的 Dialog ？
 
-* 为什么建议只使用默认的构造方法来创建 Fragment？[Link](https://stackoverflow.com/a/16042750/2809326)
+1. 解释下 Android 的 View 。
 
-* 为什么 Bundle 被用来传递数据，为什么不能使用简单的 Map 数据结构？
+1. 你能创建自定义 View 吗？具体是如何创建的？
 
-* 阐述一下 Fragment 的生命周期。[Link](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
+1. 什么是 ViewGroup ，它与 View 的区别在哪里？
 
-* 如何理解 Android 的 Dialog ？
+1. Fragment 和 Activity 有什么区别？它们之间又有什么关系？
 
-* 解释下 Android 的 View 。
+1. 谈谈 Serializable 接口和 Parcelable 接口的区别。在 Android 中最好使用哪种接口？
 
-* 你能创建自定义 View 吗？具体是如何创建的？
+1. [Activity 的启动模式有哪些？](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
 
-* 什么是 ViewGroup ，它与 View 的区别在哪里？
+1. [解释一下 Android 中的 Intent 。](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
 
-* Fragment 和 Activity 有什么区别？它们之间又有什么关系？
+1. 什么是隐式 Intent ？
 
-* 谈谈 Serializable 接口和 Parcelable 接口的区别。在 Android 中最好使用哪种接口？
+1. 什么是显式 Intent ？
 
-* Activity 的启动模式有哪些？[Link](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
+1. 解释一下 AsyncTask 。
 
-* 解释一下 Android 中的 Intent 。[Link](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
+1. [如何理解 Android 中的广播。](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
 
-* 什么是隐式 Intent ？
+1. [如何理解 Android 的 LocalBroadcastManager 。](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 
-* 什么是显式 Intent ？
+1. [什么是 JobScheduler ？](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 
-* 解释一下 AsyncTask 。
+1. 什么是 DDMS ？你可以用它来做什么？
 
-* 如何理解 Android 中的广播。[Link](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
+1. [解释一下什么是 support libary ，以及为什么要引入 support library ？](http://martiancraft.com/blog/2015/06/android-support-library/)
 
-* 如何理解 Android 的 LocalBroadcastManager 。[Link](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
+1. 如何理解 Android 中的 ContentProvider 。它通常用来干什么？
 
-* 什么是 JobScheduler ？[Link](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
+1. [什么是 Data Binding ？](https://developer.android.com/topic/libraries/data-binding/index.html)
 
-* 什么是 DDMS ？你可以用它来做什么？
+1. [Android 的核心组件具体都有什么？](https://developer.android.com/topic/libraries/architecture/index.html)
 
-* 解释一下什么是 support libary ，以及为什么要引入 support library ？[Link](http://martiancraft.com/blog/2015/06/android-support-library/)
+1. 什么是 ADB ？
 
-* 如何理解 Android 中的 ContentProvider 。它通常用来干什么？
+1. 什么是 ANR ？如何避免发生 ANR ？
 
-* 什么是 Data Binding ？[Link](https://developer.android.com/topic/libraries/data-binding/index.html)
+1. AndroidManifest.xml 是什么？
 
-* Android 的核心组件具体都有什么？[Link](https://developer.android.com/topic/libraries/architecture/index.html)
+1. 解释一下 broadcast 和 intent 在 app 内传递消息的工作流程。
 
-* 什么是 ADB ？
+1. 当 Bitmap 占用较多内存时，你是怎么处理的？
 
-* 什么是 ANR ？如何避免发生 ANR ？
+1. Android 应用有哪些不同的存储数据的方式？
 
-* AndroidManifest.xml 是什么？
+1. 什么是 Dalvik 虚拟机？
 
-* 解释一下 broadcast 和 intent 在 app 内传递消息的工作流程。
+1. AsyncTask 的生命周期和(它所属的) Activity 的生命周期有什么关系？这种关系可能会导致什么样的问题？ 如何避免这些问题发生？
 
-* 当 Bitmap 占用较多内存时，你是怎么处理的？
 
-* Android 应用有哪些不同的存储数据的方式？
+1. Intent filter 是用来做什么的？
 
-* 什么是 Dalvik 虚拟机？
+1. [什么是 Sticky Intent？](http://www.androidinterview.com/what-is-a-sticky-intent/)
 
-* AsyncTask 的生命周期和(它所属的) Activity 的生命周期有什么关系？这种关系可能会导致什么样的问题？ 如何避免这些问题发生？
+1. 什么是 AIDL ？列举一下通过 AIDL 创建被绑定的服务（bounded service）的步骤。
 
+1. Android 的权限有多少个不同的保护等级？
 
-* Intent filter 是用来做什么的？
+1. [在转屏时你如何保存 Activity 的状态？](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
 
-* 什么是 Sticky Intent？[Link](http://www.androidinterview.com/what-is-a-sticky-intent/)
+1. 相对布局和线性布局的区别。
 
-* 什么是 AIDL ？列举一下通过 AIDL 创建被绑定的服务（bounded service）的步骤。
+1. 如何实现 XML 命名空间？
 
-* Android 的权限有多少个不同的保护等级？
+1. View.GONE 和 View.INVISIBLE 之间的区别。
 
-* 在转屏时你如何保存 Activity 的状态？[Link](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
+1. Bitmap 和 .9（nine-patch）图片之间有什么区别？
 
-* 相对布局和线性布局的区别。
+1. [谈谈位图池。](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
 
-* 如何实现 XML 命名空间？
+1. 在 Android 中如何避免内存泄漏？
 
-* View.GONE 和 View.INVISIBLE 之间的区别。
+1. Android 桌面的小部件是什么？
 
-* Bitmap 和 .9（nine-patch）图片之间有什么区别？
+1. 什么是 AAPT ？
 
-* 谈谈位图池。[Link](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
+1. 你是如何在 Android 应用程序中发现内存泄漏的？
 
-* 在 Android 中如何避免内存泄漏？
+1. 你如何排查应用崩溃的原因？
 
-* Android 桌面的小部件是什么？
+1. 为什么你应该避免在主线程上运行非用户界面相关的代码？
 
-* 什么是 AAPT ？
+1. 你是如何适配不同分辨率的手机的？
 
-* 你是如何在 Android 应用程序中发现内存泄漏的？
+1. 如何理解 Doze 模式。如何理解应用程序待机模式（App Standby）。
 
-* 你如何排查应用崩溃的原因？
+1. 在 Android 中，你可以使用什么来进行后台操作?
 
-* 为什么你应该避免在主线程上运行非用户界面相关的代码？
+1. 什么是 ORM ？它是如何工作的？
 
-* 你是如何适配不同分辨率的手机的？
+1. 什么是 Loader ？
 
-* 如何理解 Doze 模式。如何理解应用程序待机模式（App Standby）。
+1. 什么是 NDK ，为什么它是有用的？
 
-* 在 Android 中，你可以使用什么来进行后台操作?
+1. [如何理解严格模式（StrictMode）。](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
 
-* 什么是 ORM ？它是如何工作的？
+1. 什么是 Lint ？它的用途是什么？
 
-* 什么是 Loader ？
+1. 什么是 SurfaceView ？
 
-* 什么是 NDK ，为什么它是有用的？
+1. ListView 和 RecyclerView 有什么区别？
 
-* 如何理解严格模式（StrictMode）。 [Link](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
+1. 什么是 ViewHolder 模式？为什么我们应该使用它？
 
-* 什么是 Lint ？它的用途是什么？
+1. 什么是 PendingIntent ？
 
-* 什么是 SurfaceView ？
+1. 你能手动调用垃圾回收吗？
 
-* ListView 和 RecyclerView 有什么区别？
+1. 周期地更新页面的最好方式是什么？
 
-* 什么是 ViewHolder 模式？为什么我们应该使用它？
+1. 有哪些类型的广播？
 
-* 什么是 PendingIntent ？
+1. [你开发过组件吗？请描述一下。](https://blog.mindorks.com/android-widgets-ad3d166458d3)
 
-* 你能手动调用垃圾回收吗？
+1. [如何理解上下文（Context）。怎么使用它？](https://medium.com/p/understanding-context-in-android-application-330913e32514)
 
-* 周期地更新页面的最好方式是什么？
+1. 你知道什么是视图树(View Tree)吗？怎样优化它的深度？
 
-* 有哪些类型的广播？
+1. onTrimMemory() 方法是什么？
 
-* 你开发过组件吗？请描述一下。[Link](https://blog.mindorks.com/android-widgets-ad3d166458d3)
+1. Android 应用可以使用多进程吗？怎样使用？
 
-* 如何理解上下文（Context）。怎么使用它？[Link](https://medium.com/p/understanding-context-in-android-application-330913e32514)
+1. 内存溢出（OutOfMemory）是怎么发生的？
 
-* 你知道什么是视图树(View Tree)吗？怎样优化它的深度？
+1. 文本样式接口（Spannable）是什么？
 
-* onTrimMemory() 方法是什么？
+1. 什么是过度绘制（overdraw）？
 
-* Android 应用可以使用多进程吗？怎样使用？
+1. [什么是渲染脚本（renderscript）？](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
 
-* 内存溢出（OutOfMemory）是怎么发生的？
+1. Dalvik 虚拟机模式和 ART（Android Runtime）虚拟机模式的区别。
 
-* 文本样式接口（Spannable）是什么？
+1. [FlatBuffers 和 JSON 的区别。](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
 
-* 什么是过度绘制（overdraw）？
+1. [谈谈 Android 的注解。](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link2](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
 
-* 什么是渲染脚本（renderscript）？[Link](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
+1. [描述一下约束布局（Constraint Layout）。](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
 
-* Dalvik 虚拟机模式和 ART（Android Runtime）虚拟机模式的区别。
+1. [阐述一下 Android 中的 HashMap , ArrayMap 和 SparseArray 。](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
 
-* FlatBuffers 和 JSON 的区别。[Link](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
+1. [阐述一下 Looper, Handler 和 HandlerThread 。](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a)
 
-* 谈谈 Android 的注解。[Link1](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link2](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
+1. [如何降低 Android 应用的耗电量？](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 
-* 描述一下约束布局（Constraint Layout）。[Link](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
+1. [SnapHelper 是什么？](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 
-* 阐述一下 Android 中的 HashMap , ArrayMap 和 SparseArray 。[Link](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
-
-* 阐述一下 Looper, Handler 和 HandlerThread 。[Link](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a)
-
-* 如何降低 Android 应用的耗电量？[Link](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
-
-* SnapHelper 是什么？[Link](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
-
-* 在 Android 中怎么处理多点触控？[link](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
+1. [在 Android 中怎么处理多点触控？](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
 
 
 ### 架构
 
-* 请介绍一下你做的上一个 App 的架构。
+1. 请介绍一下你做的上一个 App 的架构。
 
-* 请介绍一下 MVP。 [Link](https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40)
+1. [请介绍一下 MVP。](https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40)
 
-* Presenter 是什么？
+1. Presenter 是什么？
 
-* 什么是模型？
+1. 什么是模型？
 
-* 请介绍一下 MVC。
+1. 请介绍一下 MVC。
 
-* Controller 是什么？
+1. Controller 是什么？
 
-* 请介绍一下 MVVM。 [Link](https://github.com/MindorksOpenSource/android-mvvm-architecture)
+1. [请介绍一下 MVVM。 ](https://github.com/MindorksOpenSource/android-mvvm-architecture)
 
-* 谈谈你对代码整洁之道（clean code）的理解。[Link](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
+1. [谈谈你对代码整洁之道（clean code）的理解。](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
 
 
 ### 设计问题
 
-* 请设计 Uber App。
+1. 请设计 Uber App。
 
-* 请设计 Facebook App。
+1. 请设计 Facebook App。
 
-* 请设计 Facebook Near-By Friends App。
+1. 请设计 Facebook Near-By Friends App。
 
-* 请设计 WhatsApp。
+1. 请设计 WhatsApp。
 
-* 请设计 SnapChat。
+1. 请设计 SnapChat。
 
-* 基于地理位置 App 的设计问题。
+1. 基于地理位置 App 的设计问题。
 
 
 ### 工具和技能
