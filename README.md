@@ -1712,6 +1712,10 @@ Glide 是一个 android 平台上的快速和高效的开源的多媒体资源�
 (7) OkHttp 和 Volley 的支持  
 
 #### 三、网络请求
+1. okhttp-OkGo  
+该库是基于 Http 协议，封装了 OkHttp 的网络请求框架，比 Retrofit 更简单易用，支持 RxJava，RxJava2，支持自定义缓存，支持批量断点下载管理和批量上传管理功能  
+项目地址：https://github.com/jeasonlzy/okhttp-OkGo  
+
 1. Volley  
 Google 提供的网络通信库，使得网络请求更简单、更快速  
 项目地址：https://android.googlesource.com/platform/frameworks/volley  
