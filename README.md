@@ -468,7 +468,7 @@ Demo 地址：[SlideBottomPanelDemo 下载](https://github.com/kingideayou/Slide
 1. banner  
 Android广告图片轮播控件，支持无限循环和多种主题，可以灵活设置轮播样式、动画、轮播和切换时间、位置、图片加载框架等！  
 项目地址：https://github.com/youth5201314/banner  
-效果图：！[p1](https://camo.githubusercontent.com/72e7034bb9f3ed5e4d28c25a94adb22bb9e7cb98/687474703a2f2f6f63656835316b6b752e626b742e636c6f7564646e2e636f6d2f62616e6e65725f6578616d706c65312e706e67)  
+效果图：![p1](https://camo.githubusercontent.com/72e7034bb9f3ed5e4d28c25a94adb22bb9e7cb98/687474703a2f2f6f63656835316b6b752e626b742e636c6f7564646e2e636f6d2f62616e6e65725f6578616d706c65312e706e67)  
 
 
 1. AdvancedPagerSlidingTabStrip   
