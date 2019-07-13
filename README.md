@@ -1,15 +1,15 @@
 目前包括：  
 [Android 开源项目分类汇总](#开源项目分类汇总)  
-	- [第一部分 个性化控件(View)](#第一部分 个性化控件(View))  
-	- [第二部分 工具库](#第二部分 工具库)  
-	- [第三部分 优秀项目](#第三部分 优秀项目)  
-	- [第四部分 开发工具及测试工具](#第四部分 开发工具及测试工具)  
-	- [第五部分](#第五部分)  
+	- [第一部分个性化控件(View)](#第一部个性化控件(View))  
+	- [第二部分工具库](#第二部分工具库)  
+	- [第三部分优秀项目](#第三部分优秀项目)  
+	- [第四部分开发工具及测试工具](#第四部分开发工具及测试工具)  
+	- [第五部分其他](#第五部分)  
 [高级Android面试](interview)  
 
 
 ## 开源项目分类汇总
-## 第一部分 个性化控件(View)
+## 第一部分个性化控件(View)
 主要介绍那些不错个性化的 View，包括 ListView、ActionBar、Menu、ViewPager、Gallery、GridView、ImageView、ProgressBar、TextView、ScrollView、TimeView、TipView、FlipView、ColorPickView、GraphView、UI Style 等等。  
 
 #### 一、ListView
@@ -1629,7 +1629,7 @@ Android的动态车速表和量规。 惊人，强大，多形 :zap:
 效果圖:   
 ![Renderings](https://raw.githubusercontent.com/anastr/SpeedView/master/images/AwesomeSpeedometer.gif)  
 
-## 第二部分 工具库
+## 第二部分工具库
 主要包括那些不错的开发库，包括依赖注入框架、图片缓存、网络请求、数据库 ORM 建模、Android 公共库、Android 高版本向低版本兼容、多媒体相关及其他。  
 
 #### 一、依赖注入 DI
@@ -2537,7 +2537,7 @@ demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/
 项目地址：[GHDownload](https://github.com/guanchao/GHDownload)  
 
 
-## 第三部分 优秀项目
+## 第三部分优秀项目
 主要介绍那些 Android 还不错的完整项目，目前包含的项目主要依据是项目有意思或项目分层规范比较好。  
 
 #### 一、系统及平台
@@ -2637,7 +2637,7 @@ APK 地址：https://github.com/socoolby/CoolClock/blob/master/CoolClock.apk
 效果图：  
 <img src="https://raw.githubusercontent.com/socoolby/CoolClock/master/CoolClock.png" width="768" height="382"/><img src="https://raw.githubusercontent.com/socoolby/CoolClock/master/demonstrate.gif" width="320" height="568"/>  
 
-## 第四部分 开发工具及测试工具
+## 第四部分开发工具及测试工具
 主要介绍和 Android 开发工具和测试工具相关的开源项目。  
 
 #### 一、开发效率工具
