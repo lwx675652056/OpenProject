@@ -482,6 +482,11 @@ Demo 地址：[SlideBottomPanelDemo 下载](https://github.com/kingideayou/Slide
 项目地址：https://github.com/hackware1993/MagicIndicator  
 效果图：![p1](https://github.com/hackware1993/MagicIndicator/blob/master/magicindicator.gif)  
 
+1. XTabLayout  
+XTabLayout是基于design包中的TabLayout进行了功能的扩展，在保留原有功能的基础上，增加了修改选中项字体大小、修改指示器长度以及限制屏幕显示范围内显示的Tab个数。  
+项目地址：https://github.com/AndroidKun/XTabLayout  
+效果图：![p1](https://camo.githubusercontent.com/f8cc0c6ce46eca0a6d50d1eac707fb6af762eb7e/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f32303136313232323039353731393333303f77617465726d61726b2f322f746578742f6148523063446f764c324a736232637559334e6b626935755a585176595445314d7a4d314f4467344e6a633d2f666f6e742f3561364c354c32542f666f6e7473697a652f3430302f66696c6c2f49304a42516b46434d413d3d2f646973736f6c76652f37302f677261766974792f536f75746845617374)  
+
 1. banner  
 Android广告图片轮播控件，支持无限循环和多种主题，可以灵活设置轮播样式、动画、轮播和切换时间、位置、图片加载框架等！  
 项目地址：https://github.com/youth5201314/banner  
