@@ -469,7 +469,19 @@ Demo 地址：[SlideBottomPanelDemo 下载](https://github.com/kingideayou/Slide
 项目地址: https://github.com/toanvc/FloatingActionMenu-Animation  
 效果图: ![Renderings](https://github.com/toanvc/FloatingActionMenu-Animation/raw/master/screenshots/scale.gif)    
 
-#### 四、ViewPager 、Gallery
+#### 四、ViewPager、Gallery、Tablayout
+1. FlycoTabLayout  
+一个Android TabLayout库,目前有3个TabLayout:SlidingTabLayout,CommonTabLayout,SegmentTabLayout  
+项目地址：https://github.com/H07000223/FlycoTabLayout  
+效果图：![p1](https://github.com/H07000223/FlycoTabLayout/blob/master/preview_1.gif)
+![p2](https://github.com/H07000223/FlycoTabLayout/blob/master/preview_2.gif)
+![p3](https://github.com/H07000223/FlycoTabLayout/blob/master/preview_3.gif)  
+
+1. MagicIndicator  
+强大、可定制、易扩展的 ViewPager 指示器框架。是ViewPagerIndicator、TabLayout、PagerSlidingTabStrip的最佳替代品。支持角标，更支持在非ViewPager场景下使用（使用hide()、show()切换Fragment或使用setVisibility切换FrameLayout里的View等）  
+项目地址：https://github.com/hackware1993/MagicIndicator  
+效果图：![p1](https://github.com/hackware1993/MagicIndicator/blob/master/magicindicator.gif)  
+
 1. banner  
 Android广告图片轮播控件，支持无限循环和多种主题，可以灵活设置轮播样式、动画、轮播和切换时间、位置、图片加载框架等！  
 项目地址：https://github.com/youth5201314/banner  
