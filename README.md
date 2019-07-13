@@ -992,7 +992,6 @@ Demo 项目：https://github.com/traex/RippleEffect/tree/master/sample
 Demo 项目：https://github.com/desmond1121/RippleCompat/tree/master/app  
 效果图：
 ![Renderings](https://raw.githubusercontent.com/desmond1121/RippleCompat/master/demo/Demo.gif)  
-
 palette效果：
 ![Renderings](https://raw.githubusercontent.com/desmond1121/RippleCompat/master/demo/Demo1.gif)  
 
