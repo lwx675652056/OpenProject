@@ -1722,7 +1722,29 @@ Glide 是一个 android 平台上的快速和高效的开源的多媒体资源�
 (6) 动画的支持  
 (7) OkHttp 和 Volley 的支持  
 
-#### 三、网络请求
+#### 三、图片压缩
+1. Luban  
+Luban(鲁班)—Image compression with efficiency very close to WeChat Moments/可能是最接近微信朋友圈的图片压缩算法  
+项目地址：https://github.com/Curzibn/Luban  
+效果与对比:  
+
+内容 | 原图 | `Luban` | `Wechat`
+---- | ---- | ------ | ------
+截屏 720P |720*1280,390k|720*1280,87k|720*1280,56k
+截屏 1080P|1080*1920,2.21M|1080*1920,104k|1080*1920,112k
+拍照 13M(4:3)|3096*4128,3.12M|1548*2064,141k|1548*2064,147k
+拍照 9.6M(16:9)|4128*2322,4.64M|1032*581,97k|1032*581,74k
+滚动截屏|1080*6433,1.56M|1080*6433,351k|1080*6433,482k
+
+
+1. CompressHelper
+主要通过尺寸压缩和质量压缩，以达到清晰度最优，该项目参考了 https://github.com/zetbaitsu/Compressor 的部分代码，且在基础上修正了部分
+项目地址：https://github.com/nanchen2251/CompressHelper  
+效果图：  
+![p1](https://github.com/nanchen2251/CompressHelper/blob/master/111.png)
+
+
+#### 四、网络请求
 1. okhttp-OkGo  
 该库是基于 Http 协议，封装了 OkHttp 的网络请求框架，比 Retrofit 更简单易用，支持 RxJava，RxJava2，支持自定义缓存，支持批量断点下载管理和批量上传管理功能  
 项目地址：https://github.com/jeasonlzy/okhttp-OkGo  
@@ -1793,7 +1815,7 @@ TwistVolley 是对 Volley 的一个封装库。提供类似 Picasso 一样的串
 项目地址：https://github.com/pengjianbo/OkHttpFinal  
 Demo 地址：https://github.com/pengjianbo/OkHttpFinal  
 
-#### 四、数据库 orm 工具包
+#### 五、数据库 orm 工具包
 orm 的 db 工具类，简化建表、查询、更新、插入、事务、索引的操作 
 
 1. greenDAO  
@@ -1848,7 +1870,7 @@ SnappyDB是一个key-value数据库，非常流行的NoSQL数据库。
 
 
 
-#### 五、Android 公共库
+#### 六、Android 公共库
 1. Guava  
 Google 的基于 java1.6 的类库集合的扩展项目，包括 collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O 等等. 这些高质量的 API 可以使你的 JAVa 代码更加优雅，更加简洁  
 项目地址：https://code.google.com/p/guava-libraries/  
@@ -1933,7 +1955,7 @@ A library that analyzes an Android device's specifications and calculates which 
 一个本地图片选择器，支持图片的单选和多选，直接返回所选图片的路径。   
 项目地址：https://github.com/lovetuzitong/MultiImageSelector.git 
 
-#### 六、Android 高版本向低版本兼容
+#### 七、Android 高版本向低版本兼容
 1. Nine Old Androids  
 将 Android 3.0(Honeycomb)所有动画 API(ObjectAnimator ValueAnimator 等)兼容到 Android1.0  
 项目地址：https://github.com/JakeWharton/NineOldAndroids  
@@ -1975,7 +1997,7 @@ Android 4.4 的 Transitions API 兼容到 Android 2.2 以上
 项目地址：https://github.com/kot32go/KShareViewActivityManager  
 效果图：http://i8.tietuku.com/aa5726b8302ae711.gif  
 
-#### 七、多媒体相关
+#### 八、多媒体相关
 1. cocos2d-x  
 跨平台的 2d 游戏框架，支持 Android、IOS、Linux、Windows 等众多平台  
 项目地址：https://github.com/cocos2d/cocos2d-x  
@@ -2121,7 +2143,7 @@ Demo 地址：[Download here](https://raw.githubusercontent.com/jcodeing/K-Sonic
 项目地址：https://github.com/jcodeing/KMedia →项目模块：[KMedia-Core](https://github.com/jcodeing/KMedia-Core) & [KMedia-Uie](https://github.com/jcodeing/KMedia-Uie) & [KMedia-Exo](https://github.com/jcodeing/KMedia-Exo)  
 ![Demo-Gif-1](https://raw.githubusercontent.com/jcodeing/raw/raw/gif/km_d_sr_1_270.gif)![Demo-Gif-2](https://raw.githubusercontent.com/jcodeing/raw/raw/gif/km_d_ui_270.gif)![Demo-Gif-3](https://raw.githubusercontent.com/jcodeing/raw/raw/gif/km_d_sr_2_270.gif)
 
-#### 八、事件总线(订阅者模式)
+#### 九、事件总线(订阅者模式)
 通过发布/订阅事件解耦事件发送和接受，从而简化应用程序组件(Activities, Fragments 及后台线程)之间的通信  
 
 1. EventBus  
@@ -2144,7 +2166,7 @@ Square 的开源项目，基于 Guava 的 Android 优化
 [EventBus 与 Otto 的功能及性能对比文档](https://github.com/greenrobot/EventBus#comparison-with-squares-otto)  
 [EventBus 与 Otto 性能对比 Demo Apk](https://play.google.com/store/apps/details?id=de.greenrobot.eventperf)  
 
-#### 九、传感器
+#### 十、传感器
 1. Great Android Sensing Toolkit  
 Android 感应器工具包，包含示例及使用过程中可能需要的算法  
 项目地址：https://github.com/gast-lib/gast-lib  
@@ -2201,7 +2223,7 @@ Demo 地址：https://play.google.com/store/apps/details?id=uk.co.alt236.btlesca
 通过 NFC 从公交卡中读取数据的一个应用  
 项目地址：https://github.com/codebutler/farebot  
 
-#### 十、安全
+#### 十一、安全
 1. SQLCipher  
 Sqlite 加密工具  
 项目地址：https://github.com/sqlcipher/sqlcipher  
@@ -2233,7 +2255,7 @@ Android 4 锁屏界面解锁
 关于 Android 不安全性的示例  
 项目地址：https://github.com/dineshshetty/Android-InsecureBankv2  
 
-#### 十一、插件化
+#### 十二、插件化
 更多见：[Android 插件化作用、概念以及不错的资料(包括开源项目)和解决方案](http://www.trinea.cn/android/android-plugin/)  
 
 1. dynamic-load-apk  
@@ -2269,7 +2291,7 @@ Demo 地址：https://github.com/bunnyblue/OpenAtlasExtension/blob/master/Dist/O
 Android ANR 监听，通过监听自己的 UI Thread 是否被执行确定是否发生了 ANR，并可以设置相关事件  
 项目地址：https://github.com/SalomonBrys/ANR-WatchDog  
 
-#### 十二、文件
+#### 十三、文件
 对不同文档类型的处理，包括 PDF、Word、EPub、Html、Zip 等  
 
 1. purePDF  
@@ -2312,7 +2334,7 @@ java 压缩和解压库
 轻量级的图片文件选择器，用系统api选取，压缩和裁切图片，可以方便的得要指定尺寸的图片  
 项目地址：https://github.com/sw926/ImageFileSelector  
 	
-#### 十三、其他
+#### 十四、其他
 
 1. FragmentStack  
 一个封装了启动模式的Fragment便捷使用库,方便构建单Activity+多Fragment轻量级框架  
